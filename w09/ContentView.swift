@@ -13,6 +13,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            Text("Bye, world!")
+        
             Text("Hello, world!")
             Button(action: {print("Button tapped!")})
             {
